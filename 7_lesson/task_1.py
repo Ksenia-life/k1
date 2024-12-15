@@ -19,10 +19,11 @@ def save_info(all_info):
             "laptop": "браузера на ноутбуке",
             "desktop": "браузера на компьютере"
         }
+        region = i['region'] if i['region'] != "-" else "Неизвестен"
         data_list.append(
             f"Пользователь {i['name']} {sex} пола, {i['age']} лет совершила покупку на {i['bill']} у.е."
             f" с {device_type[i['device_type']]} {i['browser']}."
-            f" Регион, из которого совершалась покупка: {i['region']}.\n")
+            f" Регион, из которого совершалась покупка: {region}.\n")
 
     return data_list
 
