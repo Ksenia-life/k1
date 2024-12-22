@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Buy groceries",
+        "priority": "high",
+        "isDone": true,
+        "id": 1
+    },
+    {
+        "title": "Clean the house",
+        "priority": "low",
+        "isDone": false,
+        "id": 2
+    },
+    {
+        "title": "Finish project",
+        "priority": "high",
+        "isDone": false,
+        "id": 3
+    },
+    {
+        "title": "Read a book",
+        "priority": "normal",
+        "isDone": false,
+        "id": 4
+    },
+    {
+        "title": "Gym",
+        "priority": "normal",
+        "isDone": false,
+        "id": 5
+    }
+]
